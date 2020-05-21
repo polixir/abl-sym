@@ -12,6 +12,14 @@ We experiment on the [Mathematics Dataset](https://github.com/deepmind/mathemati
 Calculate the remainder when 7687189 is divided by 3441. <br>
 3436###pos#8 pos#4 argc#2 api#Mod extra#@end@
 
+### models
+We release 3 models(extraction code: eg39)
+
+- [program-searching](https://pan.baidu.com/s/1U3VN-Dy02wQg8AbKBP8oVA)
+- [abl-sym](https://pan.baidu.com/s/1U3VN-Dy02wQg8AbKBP8oVA)
+- [abl-sym-tp](https://pan.baidu.com/s/1U3VN-Dy02wQg8AbKBP8oVA)
+
+
 #### search procedure
 To execute program-searching procedure, use `warm_up_search.py`, `program_search.py`, `curriculum_search.py`.
 During the execution process, the searched programs need to be used to train the program-searching model, 
