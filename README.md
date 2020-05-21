@@ -9,7 +9,7 @@ pip install -r requirements.txt
 ### dataset format
 We experiment on the [Mathematics Dataset](https://github.com/deepmind/mathematics_dataset). The data set is preprocessed into the following form, where one line is the description of the problem, the next line is separated by ###, the first half is the answer, the second half is the program(may not have).
 > What is the first derivative of 5018*w**4 + 15*w**3 + 15*w + 12680810 wrt w? <br>
-20072*w**3 + 45*w**2 + 15###pos#3 pos#8 pos#6 argc#3 api#diff extra#@end@
+20072*w**3 + 45*w**2 + 15###pos#3 pos#8 pos#6 argc#3 api#diff extra#@end@ <br>
 Calculate the remainder when 7687189 is divided by 3441. <br>
 3436###pos#8 pos#4 argc#2 api#Mod extra#@end@
 
@@ -32,6 +32,7 @@ python dmmath/search/warm_up_search.py \
 python dmmath/search/program_search.py \
     --data ...
 python dmmath/search/curriculum_search.py \
+    --model .. \
     --data ...
 ```
 ### training
