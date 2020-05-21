@@ -1,0 +1,12 @@
+data/api_info.pkl
+data/dmmath_word2vec.pkl
+data/sample_data_with_program.txt
+data/tmp.py
+data/word2freq.txt
+/scripts
+/data/test
+result*
+__pycache__
+*.pyc
+*.model
+/.idea
