@@ -1,7 +1,7 @@
 ## An Abductive Learning Framework For Automatically Solving Math Problems
 This code is our implementation of paper [An Abductive Learning Framework For Automatically Solving Math Problems](), which is based on the famous NLP framework [AllenNLP](https://github.com/allenai/allennlp).
 
-Citation: "Yangyang Hu and Yang Yu. Enhancing neural mathematical reasoning by abductive combination with symbolic library. In: ICML 2020 Workshop on Bridge Between Perception and Reasoning: Graph Neural Networks & Beyond, Vienna, Austria, 2020".
+Citation: "Yangyang Hu and Yang Yu. Enhancing neural mathematical reasoning by abductive combination with symbolic library. In: ICML 2020 Workshop on Bridge Between Perception and Reasoning: Graph Neural Networks & Beyond, Vienna, Austria, 2020". https://arxiv.org/abs/2203.14487
 
 Video presentation: https://agit.ai/Polixir/ABL-sym
 
